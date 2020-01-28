@@ -51,7 +51,7 @@ h1{
     padding: 0 80px;
 }
 .innovation .tittle button{
-    padding: 8px 40px;
+    padding: 8px 50px;
     background-color: #fff;
     position: relative;
     bottom: 30px;
@@ -88,7 +88,7 @@ h1{
 /* section text2  */
 .text2{
     padding: 40px 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
 .text2 .sect3{
     width: 343px;
@@ -108,6 +108,30 @@ footer{
     padding: 20px 0;
     text-align: center;
 }
+/*    MEDIA QUERIES   */
+
+  /*   tablet size  */
+@media screen and (max-width:768px){
+    header{
+        background-color: silver;
+        flex-wrap: wrap-reverse;
+    }
+    header .nav ul li{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    .nav ul{ padding: 10px 0;}
+    .nav img{ padding-top: 20px; }
+    .innovation{padding: 0;}
+    .tittle img{ display: none; }
+    .text div{ width: 333px; }
+    .text2 .sect3{ width: 214px;   }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+}
+  
 
 
 
