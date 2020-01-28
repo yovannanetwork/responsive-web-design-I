@@ -132,7 +132,29 @@ footer{
     }
 }
   
-
+/*  media query movil */
+@media screen and (max-width: 414px){
+    header ul li{
+        width: 414px;
+        text-align: center;
+        border-top: 1px solid black;
+    }
+    header ul li:nth-child(6){
+        border-bottom: 1px solid black;
+    }
+    ul{ margin: 0;   }
+    .nav img{ top: 0;  }
+    .text div{  width: 100%;    }
+    .text2 .sect3{
+        width: 100%;
+        padding-left: 0;
+    }
+    p,span{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    h1{ font-size: 50px;   }
+}
 
 
 
