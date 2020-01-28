@@ -1,1 +1,134 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+*{/* outline: 1px solid red;*/
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+p, span, a{
+    font-weight: 550;
+    line-height: 1.3
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #6557;
+}
+header .nav ul li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header img{
+    position: relative;
+    top: 16px;
+    margin: 0 0 0 60px;
+}
+ul{
+    padding-left: 0;
+}
+/*  SECCTION INNOVATION*/
+.innovation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 8px;
+    padding: 0 80px;
+}
+.innovation .tittle button{
+    padding: 8px 40px;
+    background-color: #fff;
+    position: relative;
+    bottom: 30px;
+    border: 1px solid black;
+}
+.tittle button a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+/* SECTION TEXT */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.text{
+    border-top: 2px solid #000;
+    padding: 40px 0;
+    z-index: -5;
+    
+}
+
+.text div{
+    width: 527px;
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+.middle-img{
+    width: 100%;
+}
+.middle-img:hover{
+    opacity: 0.3;
+}
+/* section text2  */
+.text2{
+    padding: 40px 0;
+    border-bottom: 1px solid #000;
+}
+.text2 .sect3{
+    width: 343px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.text2 .sect3:nth-child(1){
+    padding-left: 0;
+}
+/*  section contact    */
+.contact{
+    padding: 40px 0;
+    
+}
+/*    footer   */
+footer{
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
